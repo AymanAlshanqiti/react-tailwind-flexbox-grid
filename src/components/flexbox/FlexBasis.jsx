@@ -10,6 +10,9 @@ export default function FlexBasis() {
 			<div className="basis-full lg:basis-1/4 text-white hover:basis-4/12 transition-all duration-500 bg-indigo-600 rounded-lg p-5 text-center">
 				02
 			</div>
+			<div className="basis-4 lg:basis-1 text-white hover:basis-28 transition-all duration-500 bg-indigo-600 rounded-lg p-5 text-center">
+				03
+			</div>
 			<input
 				className="basis-full lg:basis-1/4 border-2 border-indigo-500 text-indigo-500 px-2 p-5 rounded-lg hover:basis-4/12 transition-all duration-500"
 				placeholder="your_eamil@example.com"
