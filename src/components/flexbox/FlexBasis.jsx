@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function FlexBasis() {
 	return (
-		<div className="flex flex-row flex-wrap gap-3 border h-full p-3 rounded-lg">
-			<h1 className="w-full text-indigo-500 font-bold">Flex Basis</h1>
+		<div className="flex flex-row flex-wrap gap-3 border-2 border-indigo-300 h-full p-3 rounded-lg">
+			<h1 className="w-full text-indigo-500 font-bold text-2xl">Flex Basis</h1>
 			<div className="basis-[40%] lg:basis-1/4 text-white hover:basis-5/12 transition-all duration-500 bg-indigo-600 rounded-lg p-5 text-center">
 				01
 			</div>
