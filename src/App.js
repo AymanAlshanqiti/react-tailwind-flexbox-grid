@@ -4,6 +4,7 @@ import FlexDirection from './components/flexbox/FlexDirection';
 import FlexGrow from './components/flexbox/FlexGrow';
 import FlexShrink from './components/flexbox/FlexShrink';
 import FlexWrap from './components/flexbox/FlexWrap';
+import Order from './components/flexbox/Order';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Flex />
 			<FlexGrow />
 			<FlexShrink />
+			<Order />
 		</div>
 	);
 }
