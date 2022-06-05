@@ -1,5 +1,4 @@
-const shapeClasses =
-	'h-14 flex justify-center items-center rounded-lg text-white';
+const shapeClasses = 'h-14 justify-center items-center rounded-lg text-white';
 const itemClasses =
 	'flex flex-row w-full border p-3 rounded-lg gap-3 text-center';
 const tagClasses = 'bg-slate-100 px-2 rounded-md';
@@ -15,11 +14,13 @@ export default function Flex() {
 			</pre>
 			<span className="text-gray-400">grow until you fit your size</span>
 			<div className={itemClasses}>
-				<div className={`${shapeClasses} bg-indigo-300 w-14 flex-none`}>01</div>
-				<div className={`${shapeClasses} bg-indigo-600 w-64 flex-initial`}>
+				<div className={`${shapeClasses} bg-indigo-300 w-14 flex flex-none`}>
+					01
+				</div>
+				<div className={`${shapeClasses} bg-indigo-600 w-64 flex flex-initial`}>
 					02
 				</div>
-				<div className={`${shapeClasses} bg-indigo-600 w-32 flex-initial`}>
+				<div className={`${shapeClasses} bg-indigo-600 w-32 flex flex-initial`}>
 					03
 				</div>
 			</div>
