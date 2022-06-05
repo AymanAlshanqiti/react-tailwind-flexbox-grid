@@ -1,4 +1,8 @@
-import React from 'react';
+const shapeClasses =
+	'bg-indigo-600 h-14 w-14 flex justify-center items-center rounded-lg text-white';
+const itemClasses = 'w-full border p-3 rounded-lg gap-3 text-center';
+const tagClasses = 'bg-slate-100 px-2 rounded-md';
+const tagContainerClasses = 'flex gap-2 text-indigo-500';
 
 export default function FlexDirection() {
 	return (
@@ -6,44 +10,44 @@ export default function FlexDirection() {
 			<h1 className="w-full text-indigo-500 font-bold text-2xl">
 				Flex Direction
 			</h1>
-			<pre className="flex gap-2 text-indigo-500">
+			<pre className={tagContainerClasses}>
 				1.
-				<span className="bg-slate-100 px-2 rounded-md">flex-row</span>
+				<span className={tagClasses}>flex-row</span>
 			</pre>
-			<div className="flex flex-row w-full border p-3 rounded-lg gap-3 text-center">
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">01</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">02</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">03</div>
+			<div className={`flex flex-row ${itemClasses}`}>
+				<div className={shapeClasses}>01</div>
+				<div className={shapeClasses}>02</div>
+				<div className={shapeClasses}>03</div>
 			</div>
 
-			<pre className="flex gap-2 text-indigo-500">
+			<pre className={tagContainerClasses}>
 				2.
-				<span className="bg-slate-100 px-2 rounded-md">flex-row-reverse</span>
+				<span className={tagClasses}>flex-row-reverse</span>
 			</pre>
-			<div className="flex flex-row-reverse w-full border p-3 rounded-lg gap-3 text-center">
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">01</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">02</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">03</div>
+			<div className={`flex flex-row-reverse ${itemClasses}`}>
+				<div className={shapeClasses}>01</div>
+				<div className={shapeClasses}>02</div>
+				<div className={shapeClasses}>03</div>
 			</div>
 
-			<pre className="flex gap-2 text-indigo-500">
+			<pre className={tagContainerClasses}>
 				3.
-				<span className="bg-slate-100 px-2 rounded-md">flex-col</span>
+				<span className={tagClasses}>flex-col</span>
 			</pre>
-			<div className="flex flex-col w-full border p-3 rounded-lg gap-3 text-center">
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">01</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">02</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">03</div>
+			<div className={`flex flex-col ${itemClasses}`}>
+				<div className={shapeClasses}>01</div>
+				<div className={shapeClasses}>02</div>
+				<div className={shapeClasses}>03</div>
 			</div>
 
-			<pre className="flex gap-2 text-indigo-500">
+			<pre className={tagContainerClasses}>
 				4.
-				<span className="bg-slate-100 px-2 rounded-md">flex-col-reverse</span>
+				<span className={tagClasses}>flex-col-reverse</span>
 			</pre>
-			<div className="flex flex-col-reverse w-full border p-3 rounded-lg gap-3 text-center">
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">01</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">02</div>
-				<div className="bg-indigo-600 p-5 rounded-lg text-white">03</div>
+			<div className={`flex flex-col-reverse ${itemClasses}`}>
+				<div className={shapeClasses}>01</div>
+				<div className={shapeClasses}>02</div>
+				<div className={shapeClasses}>03</div>
 			</div>
 		</div>
 	);
