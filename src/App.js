@@ -1,3 +1,4 @@
+import Flex from './components/flexbox/Flex';
 import FlexBasis from './components/flexbox/FlexBasis';
 import FlexDirection from './components/flexbox/FlexDirection';
 import FlexWrap from './components/flexbox/FlexWrap';
@@ -8,6 +9,7 @@ function App() {
 			<FlexBasis />
 			<FlexDirection />
 			<FlexWrap />
+			<Flex />
 		</div>
 	);
 }
