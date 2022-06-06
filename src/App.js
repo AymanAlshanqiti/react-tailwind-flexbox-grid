@@ -7,6 +7,7 @@ import FlexWrap from './components/flexbox/FlexWrap';
 import Order from './components/flexbox/Order';
 import GridColumnsStartEnd from './components/grid/GridColumnsStartEnd';
 import GridTemplateColumns from './components/grid/GridTemplateColumns';
+import GridTemplateRows from './components/grid/GridTemplateRows';
 
 function App() {
 	return (
@@ -22,8 +23,10 @@ function App() {
 
 			<div className="border-y-2" />
 			<h1 className="text-rose-700 font-bold text-4xl">Grid</h1>
+
 			<GridTemplateColumns />
 			<GridColumnsStartEnd />
+			<GridTemplateRows />
 		</div>
 	);
 }
